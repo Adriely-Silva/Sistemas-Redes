@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Red Hat Text";
+    src: url(RedHatText-Medium.ttf);
+}
+
+/* CALCULADORA IMC */
+h1 {
+    position: absolute;
+    width: 600px;
+    height: 72px;
+    left: 92px;
+    top: 15px;
+
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 73px;
+
+    color: #4D194D;
+}
+
+/* Line 1 */
+hr {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 100px;
+
+    border: 3px solid #3E1F47;
+}
+
+/* O cálculo mostra se o seu peso está saudável. */
+h3 {
+    position: absolute;
+    width: 732px;
+    height: 44px;
+    left: 85px;
+    top: 100px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 41px;
+
+    color: #000000;
+}
+
+/* Label: */
+label {
+    position: absolute;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 41px;
+
+    color: #000000;
+}
+
+/* Peso: */
+.peso {
+    width: 96px;
+    height: 44px;
+    left: 92px;
+    top: 200px;
+}
+
+/* Altura: */
+.altura {
+    width: 124px;
+    height: 44px;
+    left: 85px;
+    top: 300px;
+}
+
+/* RESULTADO: */
+.resultado {
+    width: 237px;
+    height: 52px;
+    left: 48px;
+    top: 510px;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+}
+
+/* Rectangle 6 */
+.quadro {
+    width: 200px;
+    height: 40px;
+    left: 210px;
+    top: 510px;
+
+    background: #FFFFFF;
+    border: 2px solid #312244;
+    box-sizing: border-box;
+}
+
+input {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    left: 150px;
+
+    background: #FFFFFF;
+    border: 2px solid #312244;
+    box-sizing: border-box;
+
+}
+
+/* Rectangle 4 */
+.ent1 {
+    top: 210px;
+}
+
+/* Rectangle 5 */
+.ent2 {
+    top: 310px;
+}
+
+/* Group 1 */
+button {
+    position: absolute;
+    width: 194px;
+    height: 60px;
+    left: 354px;
+    top: 400px;
+
+/* Calcular */
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 383px;
+    top: 400px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+
+/* Rectangle 3 */
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 354px;
+    top: 400px;
+
+    background: #272640;
+}
+
+table {
+    position: absolute;
+    width: 783px;
+    height: 596px;
+    left: 600px;
+    top: 332px;
+
+    /* Rectangle 2 */
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 700px;
+    top: 150px;
+
+    background: #272640;
+}
+
+th {    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    
+    color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+}
+
+
+td {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.linha1 {
+    background: #212F45;
+}
+
+.linha2 {
+    background: #1B3A4B;
+}
+
+.linha3 {
+    background: #144552;
+}
+
+.linha4 {
+    background: #0B525B;
+}
+
+.linha5 {
+    background: #065A60;
+}
+
+.linha6 {
+    background: #006466;
+}
